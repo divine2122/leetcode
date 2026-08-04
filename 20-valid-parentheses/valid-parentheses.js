@@ -20,14 +20,15 @@ if (x === "("||x==="["||x==="{"){
     {
     //found closing parenthesis, checks if prev char is corresponding parenthesis
         if (temp[temp.length-1]==key[x]){
-        temp.pop()} else {return false}
-            console.log("te")
+        temp.pop()} else 
+        {return false}
+
 
          }
 
 
 }
-console.log(temp)
+
 if (temp.length==0){return true}
 else {return false}
 
